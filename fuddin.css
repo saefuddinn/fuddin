@@ -1,0 +1,59 @@
+body {
+    background-color: #6ea0da;
+    font-fbamily:s;
+  }
+/*Global Style*/
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 19px;
+    line-height: 1.5;
+    color:#dde01c;
+}
+
+/*Header Style*/
+header{
+    background-color: #000000;
+    color: #271753;
+    padding:90px;
+    font-size: 30px;
+}
+
+nav ul{
+    list-style-type: none;
+    display:flex;
+    justify-content: center;
+}
+nav ul li a{
+    color:#522457;
+    text-decoration: none;
+}
+/*Main content Styles*/
+
+.tablink {
+    background-color: #f0ecec;
+    color: rgb(39, 35, 35);
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    font-size: 17px;
+    width: 25%;
+  }
+
+  .tabcontent {
+    color: rgb(245, 242, 242);
+    display: none;
+    padding: 100px 20px;
+    height: 100%;
+    text-align: center;
+  }
+  
+  #Home {background-color: rgb(56, 53, 53);}
+  #News {background-color: rgb(21, 22, 21);}
+  #Contact {background-color: rgb(8, 8, 8);}
+  #About {background-color: rgb(22, 22, 21);}
+
+section{
+    text-align: center;
+}
